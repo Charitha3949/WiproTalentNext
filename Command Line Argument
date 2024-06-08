@@ -1,0 +1,15 @@
+package mycodes;
+import java.util.*;
+public class CommandLineArgu {
+	public static void main(String[] args) {
+		if(args.length==0) {
+			System.out.println("No Value");
+		}
+		else {
+			for(String a:args) {
+				System.out.print(a);
+			}
+		}
+	}
+
+}
