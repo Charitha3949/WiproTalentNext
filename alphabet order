@@ -1,0 +1,17 @@
+package mycodes;
+import java.util.*;
+public class AlpabeticOrder {
+	public static void main(String[] args) {
+		Scanner s =  new Scanner(System.in);
+		System.out.println("Enter two characters: ");
+		char a = s.next().charAt(0);
+		char b = s.next().charAt(0);
+		if(a>b) {
+			System.out.print(b+ ","+a);
+		}
+		else {
+			System.out.print(a+ "," +b);
+		}
+	}
+
+}
